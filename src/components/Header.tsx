@@ -20,7 +20,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center">
             <img 
-              src="/lovable-uploads/7246f0a2-2cc5-4afe-ac34-88887961ffd6.png"
+              src="/lovable-uploads/93aa5acc-a35d-47db-adcf-f322d9c48f99.png"
               alt="Artful Advisors Logo" 
               className="h-24 w-auto"
             />
