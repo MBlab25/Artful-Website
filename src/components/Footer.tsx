@@ -1,4 +1,17 @@
+import { useState } from "react";
+import LegalModal from "./LegalModals";
+
 const Footer = () => {
+  const [activeModal, setActiveModal] = useState<'privacy' | 'terms' | 'cookies' | 'legal-notice' | null>(null);
+
+  const openModal = (type: 'privacy' | 'terms' | 'cookies' | 'legal-notice') => {
+    setActiveModal(type);
+  };
+
+  const closeModal = () => {
+    setActiveModal(null);
+  };
+
   return (
     <footer className="bg-primary text-primary-foreground py-12">
       <div className="container mx-auto px-6">
@@ -38,10 +51,10 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="text-lg font-semibold">Legal</h4>
             <ul className="space-y-2 text-primary-foreground/80">
-              <li><a href="#" className="hover:text-accent transition-colors">Privacy Policy</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors">Terms of Service</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors">Cookie Policy</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors">Legal Notice</a></li>
+              <li><button onClick={() => openModal('privacy')} className="hover:text-accent transition-colors text-left">Privacy Policy</button></li>
+              <li><button onClick={() => openModal('terms')} className="hover:text-accent transition-colors text-left">Terms of Service</button></li>
+              <li><button onClick={() => openModal('cookies')} className="hover:text-accent transition-colors text-left">Cookie Policy</button></li>
+              <li><button onClick={() => openModal('legal-notice')} className="hover:text-accent transition-colors text-left">Legal Notice</button></li>
             </ul>
           </div>
         </div>
@@ -52,13 +65,21 @@ const Footer = () => {
               &copy; 2024 Artful Advisors. All rights reserved.
             </p>
             <div className="flex flex-wrap justify-center md:justify-end gap-6 text-sm text-primary-foreground/60">
-              <a href="#" className="hover:text-accent transition-colors">Cookie Settings</a>
-              <a href="#" className="hover:text-accent transition-colors">GDPR Compliance</a>
-              <a href="#" className="hover:text-accent transition-colors">Data Protection</a>
+              <button onClick={() => openModal('cookies')} className="hover:text-accent transition-colors">Cookie Settings</button>
+              <button onClick={() => openModal('privacy')} className="hover:text-accent transition-colors">GDPR Compliance</button>
+              <button onClick={() => openModal('privacy')} className="hover:text-accent transition-colors">Data Protection</button>
             </div>
           </div>
         </div>
       </div>
+      
+      {activeModal && (
+        <LegalModal 
+          type={activeModal} 
+          isOpen={true} 
+          onClose={closeModal} 
+        />
+      )}
     </footer>
   );
 };
