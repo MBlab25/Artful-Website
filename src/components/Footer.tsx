@@ -5,10 +5,6 @@ const Footer = () => {
         <div className="grid md:grid-cols-5 gap-8">
           <div className="space-y-4">
             <h3 className="text-2xl font-bold">Artful Advisors</h3>
-            <p className="text-primary-foreground/80">
-              Transforming businesses through expert consulting in marketing, 
-              branding, design, and finance.
-            </p>
           </div>
           
           <div className="space-y-4">
