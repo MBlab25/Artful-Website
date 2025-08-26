@@ -1,4 +1,5 @@
 import logoIcon from "@/assets/aa-charcoal-improved.png";
+import logoIconWhite from "@/assets/aa-white.png";
 
 const Footer = () => {
   return (
@@ -8,9 +9,9 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
               <img 
-                src={logoIcon} 
+                src={logoIconWhite} 
                 alt="Artful Advisors AA Logo" 
-                className="w-12 h-12 brightness-0 invert"
+                className="w-12 h-12"
               />
               <div className="flex flex-col">
                 <h3 className="text-2xl font-bold">Artful Advisors</h3>
