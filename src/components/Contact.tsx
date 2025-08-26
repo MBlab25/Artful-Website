@@ -36,15 +36,6 @@ const Contact = () => {
             >
               Email Us Now
             </Button>
-            
-            <div className="text-center">
-              <a 
-                href="mailto:info@artfuladvisors.com" 
-                className="text-xl font-semibold text-primary hover:text-accent transition-colors"
-              >
-                info@artfuladvisors.com
-              </a>
-            </div>
           </div>
         </div>
       </div>
