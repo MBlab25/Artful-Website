@@ -1,10 +1,19 @@
+import logoIcon from "@/assets/aa-charcoal-improved.png";
+
 const Footer = () => {
   return (
     <footer className="bg-primary text-primary-foreground py-12">
       <div className="container mx-auto px-6">
         <div className="grid md:grid-cols-5 gap-8">
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold">Artful Advisors</h3>
+            <div className="flex items-center space-x-3">
+              <img 
+                src={logoIcon} 
+                alt="Artful Advisors AA Logo" 
+                className="w-12 h-12 brightness-0 invert"
+              />
+              <h3 className="text-2xl font-bold">Artful Advisors</h3>
+            </div>
           </div>
           
           <div className="space-y-4">
