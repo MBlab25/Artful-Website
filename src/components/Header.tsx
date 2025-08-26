@@ -13,8 +13,8 @@ const Header = () => {
               className="w-12 h-12"
             />
             <div>
-              <div className="text-xl font-bold text-primary">Artful Advisors</div>
-              <div className="text-xs text-accent font-semibold uppercase tracking-wider -mt-1">Consulting</div>
+              <div className="text-xl font-bold text-accent">Artful Advisors</div>
+              <div className="text-xs text-muted-foreground uppercase tracking-wider -mt-1">Consulting</div>
             </div>
           </div>
           
