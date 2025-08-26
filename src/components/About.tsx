@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Users, Award, Target } from "lucide-react";
-import servicesImage from "@/assets/about-creative.jpg";
+import servicesImage from "@/assets/about-professional.jpg";
 
 const About = () => {
   return (
@@ -65,7 +65,7 @@ const About = () => {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img 
                 src={servicesImage} 
-                alt="Design studio with brand identity and creative materials" 
+                alt="Professional business environment representing excellence and partnership" 
                 className="w-full h-auto"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent"></div>
