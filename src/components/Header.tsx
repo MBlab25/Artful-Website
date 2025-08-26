@@ -22,7 +22,7 @@ const Header = () => {
             <img 
               src="/lovable-uploads/765940f0-1c3a-4814-844b-071ba1d5e979.png"
               alt="Artful Advisors Logo" 
-              className="h-40 w-auto"
+              className="h-16 w-auto"
             />
             <div className="flex flex-col">
               <h1 className="text-lg md:text-xl font-bold text-primary tracking-wider">
