@@ -1,7 +1,13 @@
 import { Button } from "@/components/ui/button";
-import logoIcon from "@/assets/artful-advisors-new-logo.png";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const Header = () => {
+  const { language, setLanguage, t } = useLanguage();
+
+  const toggleLanguage = () => {
+    setLanguage(language === 'en' ? 'es' : 'en');
+  };
+
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md border-b border-border/20">
       <div className="container mx-auto px-6 py-8">
@@ -16,19 +22,27 @@ const Header = () => {
           
           <nav className="hidden md:flex items-center space-x-8">
             <a href="#services" className="text-foreground hover:text-primary transition-colors">
-              Services
+              {t('services')}
             </a>
             <a href="#about" className="text-foreground hover:text-primary transition-colors">
-              About
+              {t('about')}
             </a>
             <a href="#contact" className="text-foreground hover:text-primary transition-colors">
-              Contact
+              {t('contact')}
             </a>
           </nav>
           
-          <Button variant="hero" size="sm">
-            Get Started
-          </Button>
+          <div className="flex items-center space-x-4">
+            <button
+              onClick={toggleLanguage}
+              className="text-sm text-foreground hover:text-primary transition-colors font-medium"
+            >
+              {language === 'en' ? 'ES' : 'EN'}
+            </button>
+            <Button variant="hero" size="sm">
+              {t('getStarted')}
+            </Button>
+          </div>
         </div>
       </div>
     </header>
