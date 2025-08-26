@@ -17,13 +17,7 @@ const Footer = () => {
   return (
     <footer className="bg-primary text-primary-foreground py-12">
       <div className="container mx-auto px-6">
-        <div className="grid md:grid-cols-5 gap-8">
-          <div className="space-y-4">
-            <div className="flex flex-col text-center">
-              <h3 className="text-2xl font-bold uppercase">ARTFUL ADVISORS</h3>
-              <div className="text-xs uppercase tracking-wider -mt-1 text-primary-foreground/60">CONSULTING</div>
-            </div>
-          </div>
+        <div className="grid md:grid-cols-4 gap-8">
           
           <div className="space-y-4">
             <h4 className="text-lg font-semibold">{t('footerServices')}</h4>
