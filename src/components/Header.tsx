@@ -36,11 +36,11 @@ const Header = () => {
           
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#services" className="text-foreground hover:text-primary transition-colors font-medium">
-              {t('services')}
-            </a>
             <a href="#about" className="text-foreground hover:text-primary transition-colors font-medium">
               {t('about')}
+            </a>
+            <a href="#services" className="text-foreground hover:text-primary transition-colors font-medium">
+              {t('services')}
             </a>
             <a href="#contact" className="text-foreground hover:text-primary transition-colors font-medium">
               {t('contact')}
@@ -97,18 +97,18 @@ const Header = () => {
           <div className="md:hidden mt-4 pb-4 border-t border-border/20">
             <nav className="flex flex-col space-y-4 mt-4">
               <a 
-                href="#services" 
-                className="text-foreground hover:text-primary transition-colors font-medium py-2"
-                onClick={() => setIsMobileMenuOpen(false)}
-              >
-                {t('services')}
-              </a>
-              <a 
                 href="#about" 
                 className="text-foreground hover:text-primary transition-colors font-medium py-2"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 {t('about')}
+              </a>
+              <a 
+                href="#services" 
+                className="text-foreground hover:text-primary transition-colors font-medium py-2"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                {t('services')}
               </a>
               <a 
                 href="#contact" 
