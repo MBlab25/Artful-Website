@@ -116,7 +116,7 @@ const translations = {
     logoDesign: 'Diseño de Logo',
     brandGuidelines: 'Guías de Marca',
     
-    designManagement: 'Gestión de Diseño',
+    designManagement: 'Coordinación de Diseño',
     designDescription: 'Optimiza tus procesos de diseño y crea experiencias visuales cohesivas en todos los puntos de contacto con el cliente.',
     designSystems: 'Sistemas de Diseño',
     uxuiStrategy: 'Estrategia UX/UI',
