@@ -25,10 +25,10 @@ const Header = () => {
               className="h-32 w-auto"
             />
             <div className="flex flex-col">
-              <h1 className="text-2xl md:text-3xl font-bold text-primary tracking-wider">
+              <h1 className="text-xl md:text-2xl font-bold text-primary tracking-wider">
                 ARTFUL ADVISORS
               </h1>
-              <p className="text-lg text-center text-muted-foreground font-medium tracking-widest">
+              <p className="text-sm text-center text-muted-foreground font-medium tracking-widest">
                 CONSULTING
               </p>
             </div>
