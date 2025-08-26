@@ -18,12 +18,20 @@ const Header = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center">
+          <div className="flex items-center space-x-4">
             <img 
               src="/lovable-uploads/93aa5acc-a35d-47db-adcf-f322d9c48f99.png"
               alt="Artful Advisors Logo" 
               className="h-32 w-auto"
             />
+            <div className="flex flex-col">
+              <h1 className="text-2xl md:text-3xl font-bold text-primary tracking-wider">
+                ARTFUL ADVISORS
+              </h1>
+              <p className="text-lg text-center text-muted-foreground font-medium tracking-widest">
+                CONSULTING
+              </p>
+            </div>
           </div>
           
           {/* Desktop Navigation */}
