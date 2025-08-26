@@ -19,9 +19,16 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="grid md:grid-cols-5 gap-8">
           <div className="space-y-4">
-            <div className="flex flex-col">
-              <h3 className="text-2xl font-bold">Artful Advisors</h3>
-              <div className="text-xs uppercase tracking-wider -mt-1 text-primary-foreground/60">Consulting</div>
+            <div className="flex items-center space-x-3">
+              <img 
+                src="/lovable-uploads/93aa5acc-a35d-47db-adcf-f322d9c48f99.png"
+                alt="Artful Advisors Logo" 
+                className="h-16 w-auto"
+              />
+              <div className="flex flex-col">
+                <h3 className="text-xl font-bold">Artful Advisors</h3>
+                <div className="text-xs uppercase tracking-wider -mt-1 text-primary-foreground/60">Consulting</div>
+              </div>
             </div>
           </div>
           
