@@ -24,10 +24,10 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="text-lg font-semibold">Company</h4>
             <ul className="space-y-2 text-primary-foreground/80">
-              <li>About Us</li>
-              <li>Our Team</li>
-              <li>Case Studies</li>
-              <li>Careers</li>
+              <li>About</li>
+              <li>Our Process</li>
+              <li>Success Stories</li>
+              <li>Resources</li>
             </ul>
           </div>
           
