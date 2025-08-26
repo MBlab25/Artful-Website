@@ -2,32 +2,14 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Mail, Phone, MapPin, Clock } from "lucide-react";
+import { Mail } from "lucide-react";
 
 const contactInfo = [
-    {
-      icon: Mail,
-      title: "Email Us",
-      details: "hello@artfuladvisors.com",
-      description: "Send us an email anytime"
-    },
   {
-    icon: Phone,
-    title: "Call Us",
-    details: "+1 (555) 123-4567",
-    description: "Mon-Fri from 8am to 6pm"
-  },
-  {
-    icon: MapPin,
-    title: "Visit Us",
-    details: "123 Business Ave, Suite 100\nNew York, NY 10001",
-    description: "Our headquarters"
-  },
-  {
-    icon: Clock,
-    title: "Business Hours",
-    details: "Monday - Friday: 8am - 6pm\nWeekends: By appointment",
-    description: "We're here to help"
+    icon: Mail,
+    title: "Email Us",
+    details: "hello@artfuladvisors.com",
+    description: "Send us an email anytime"
   }
 ];
 
