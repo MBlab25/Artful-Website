@@ -28,7 +28,7 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="text-lg font-semibold">Contact</h4>
             <ul className="space-y-2 text-primary-foreground/80">
-              <li>hello@artfuladvisors.com</li>
+              <li>info@artfuladvisors.com</li>
             </ul>
           </div>
           

@@ -32,7 +32,7 @@ const Contact = () => {
               variant="hero" 
               size="lg"
               className="text-xl px-12 py-6 h-16 shadow-xl hover:shadow-2xl transition-all duration-300"
-              onClick={() => window.location.href = 'mailto:hello@artfuladvisors.com'}
+              onClick={() => window.location.href = 'mailto:info@artfuladvisors.com'}
             >
               Email Us Now
             </Button>
@@ -40,10 +40,10 @@ const Contact = () => {
             <div className="text-center">
               <p className="text-muted-foreground mb-2">Or reach out directly at:</p>
               <a 
-                href="mailto:hello@artfuladvisors.com" 
+                href="mailto:info@artfuladvisors.com" 
                 className="text-xl font-semibold text-primary hover:text-accent transition-colors"
               >
-                hello@artfuladvisors.com
+                info@artfuladvisors.com
               </a>
             </div>
           </div>
