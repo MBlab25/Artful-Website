@@ -57,8 +57,8 @@ const translations = {
     // About
     aboutTitle: 'Why Choose Artful Advisors?',
     aboutDescription: 'We don\'t just give advice – we partner with you to create artful solutions that drive real results. Our unique blend of creative thinking and strategic expertise helps businesses not just grow, but flourish with distinction.',
-    artfulStrategy: 'Complete Approach',
-    artfulStrategyDesc: 'We analyze every aspect of your business to create comprehensive strategies that address all your specific needs.',
+    artfulStrategy: 'Global & Personalized Approach',
+    artfulStrategyDesc: 'We provide comprehensive vision of your business while adapting our strategies to your specific needs and objectives.',
     completeSolutions: 'Multidisciplinary Team',
     completeSolutionsDesc: 'We combine creativity and business strategy to deliver comprehensive solutions that drive real growth.',
     personalPartnership: 'Total Commitment',
@@ -133,8 +133,8 @@ const translations = {
     // About
     aboutTitle: '¿Por Qué Elegir Artful Advisors?',
     aboutDescription: 'No solo damos consejos: nos asociamos contigo para crear soluciones ingeniosas que generen resultados reales. Nuestra combinación única de pensamiento creativo y experiencia estratégica ayuda a las empresas no solo a crecer, sino a florecer con distinción.',
-    artfulStrategy: 'Enfoque Completo',
-    artfulStrategyDesc: 'Analizamos cada aspecto de tu negocio para crear estrategias integrales que aborden todas tus necesidades específicas.',
+    artfulStrategy: 'Enfoque Global y Personalizado',
+    artfulStrategyDesc: 'Proporcionamos una visión integral de tu negocio mientras adaptamos nuestras estrategias a tus necesidades y objetivos específicos.',
     completeSolutions: 'Equipo Multidisciplinario',
     completeSolutionsDesc: 'Combinamos creatividad y estrategia empresarial para entregar soluciones integrales que impulsan el crecimiento real.',
     personalPartnership: 'Compromiso Total',
