@@ -38,7 +38,6 @@ const Contact = () => {
             </Button>
             
             <div className="text-center">
-              <p className="text-muted-foreground mb-2">Or reach out directly at:</p>
               <a 
                 href="mailto:info@artfuladvisors.com" 
                 className="text-xl font-semibold text-primary hover:text-accent transition-colors"
