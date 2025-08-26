@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import logoIcon from "@/assets/aa-clear-logo.png";
 
 const Header = () => {
   return (
@@ -7,9 +8,11 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-4">
             <div className="flex items-center space-x-3">
-              <div className="w-12 h-12 bg-primary text-primary-foreground rounded-lg flex items-center justify-center">
-                <span className="text-xl font-bold">AA</span>
-              </div>
+              <img 
+                src={logoIcon} 
+                alt="Artful Advisors AA Logo" 
+                className="w-12 h-12"
+              />
               <div className="flex flex-col">
                 <div className="text-2xl font-bold text-primary">
                   Artful Advisors
