@@ -10,7 +10,7 @@ const Header = () => {
             <img 
               src={logoIcon} 
               alt="Artful Advisors AA Logo" 
-              className="w-20 h-20"
+              className="w-24 h-24"
             />
             <div className="flex flex-col">
               <div className="text-2xl font-bold text-primary tracking-tight">Artful Advisors</div>
