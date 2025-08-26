@@ -38,7 +38,7 @@ const About = () => {
                   <Award className="w-6 h-6 text-white" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold mb-2 text-primary">Holistic Excellence</h3>
+                  <h3 className="text-xl font-semibold mb-2 text-primary">Complete Solutions</h3>
                   <p className="text-muted-foreground">
                     From marketing and branding to design and finance, we provide comprehensive 
                     solutions that work together seamlessly to elevate every aspect of your business.
