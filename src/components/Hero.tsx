@@ -22,7 +22,7 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
             {t('transformYour')}
-            <span className="block bg-gradient-to-r from-accent to-primary-glow bg-clip-text text-transparent">
+            <span className="block text-white font-bold">
               {t('businessSuccess')}
             </span>
           </h1>
