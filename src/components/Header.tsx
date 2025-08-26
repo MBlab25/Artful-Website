@@ -39,9 +39,6 @@ const Header = () => {
             >
               {language === 'en' ? 'ES' : 'EN'}
             </button>
-            <Button variant="hero" size="sm">
-              {t('getStarted')}
-            </Button>
           </div>
         </div>
       </div>
