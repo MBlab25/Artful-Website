@@ -10,7 +10,7 @@ const Header = () => {
             <img 
               src="/lovable-uploads/7246f0a2-2cc5-4afe-ac34-88887961ffd6.png"
               alt="Artful Advisors Logo" 
-              className="h-16 w-auto"
+              className="h-20 w-auto"
             />
           </div>
           
