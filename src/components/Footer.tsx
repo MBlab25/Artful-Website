@@ -26,8 +26,6 @@ const Footer = () => {
             <ul className="space-y-2 text-primary-foreground/80">
               <li>About</li>
               <li>Our Process</li>
-              <li>Success Stories</li>
-              <li>Resources</li>
             </ul>
           </div>
           
