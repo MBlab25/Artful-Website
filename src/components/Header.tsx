@@ -1,17 +1,18 @@
 import { Button } from "@/components/ui/button";
-import logoComplete from "@/assets/integrated-aa-logo.png";
 
 const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-md border-b">
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div>
-            <img 
-              src={logoComplete} 
-              alt="Artful Advisors Consulting - Complete Logo" 
-              className="h-12 w-auto"
-            />
+          <div className="flex items-center space-x-3">
+            <div className="bg-primary text-primary-foreground px-3 py-2 rounded-lg">
+              <span className="text-lg font-bold">AA</span>
+            </div>
+            <div>
+              <div className="text-xl font-bold text-primary">Artful Advisors</div>
+              <div className="text-xs text-muted-foreground uppercase tracking-wider -mt-1">Consulting</div>
+            </div>
           </div>
           
           <nav className="hidden md:flex items-center space-x-8">
