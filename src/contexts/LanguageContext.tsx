@@ -57,12 +57,12 @@ const translations = {
     // About
     aboutTitle: 'Why Choose Artful Advisors?',
     aboutDescription: 'We don\'t just give advice – we partner with you to create artful solutions that drive real results. Our unique blend of creative thinking and strategic expertise helps businesses not just grow, but flourish with distinction.',
-    artfulStrategy: 'Artful Strategy',
-    artfulStrategyDesc: 'We blend creative thinking with analytical precision to craft strategies that are both innovative and practical, ensuring your business stands out beautifully.',
-    completeSolutions: 'Complete Solutions',
-    completeSolutionsDesc: 'From marketing and branding to design and finance, we provide comprehensive solutions that work together seamlessly to elevate every aspect of your business.',
-    personalPartnership: 'Personal Partnership',
-    personalPartnershipDesc: 'You\'re not just another client – we invest in your success as true partners, providing dedicated attention and customized solutions for your unique vision.',
+    artfulStrategy: 'Unique Methodology',
+    artfulStrategyDesc: 'Our proven 3-stage process that transforms challenges into opportunities through strategic innovation.',
+    completeSolutions: 'Multidisciplinary Team',
+    completeSolutionsDesc: 'We combine creativity and business strategy to deliver comprehensive solutions that drive real growth.',
+    personalPartnership: 'Total Commitment',
+    personalPartnershipDesc: 'Your success is our goal. We are fully dedicated to achieving the results that matter most to your business.',
     
     // Contact
     contactTitle: 'Let\'s Start',
@@ -133,12 +133,12 @@ const translations = {
     // About
     aboutTitle: '¿Por Qué Elegir Artful Advisors?',
     aboutDescription: 'No solo damos consejos: nos asociamos contigo para crear soluciones ingeniosas que generen resultados reales. Nuestra combinación única de pensamiento creativo y experiencia estratégica ayuda a las empresas no solo a crecer, sino a florecer con distinción.',
-    artfulStrategy: 'Estrategia Ingeniosa',
-    artfulStrategyDesc: 'Combinamos el pensamiento creativo con la precisión analítica para crear estrategias que son tanto innovadoras como prácticas, asegurando que tu negocio destaque bellamente.',
-    completeSolutions: 'Soluciones Completas',
-    completeSolutionsDesc: 'Desde marketing y branding hasta diseño y finanzas, proporcionamos soluciones integrales que funcionan juntas sin problemas para elevar cada aspecto de tu negocio.',
-    personalPartnership: 'Asociación Personal',
-    personalPartnershipDesc: 'No eres solo otro cliente: invertimos en tu éxito como verdaderos socios, brindando atención dedicada y soluciones personalizadas para tu visión única.',
+    artfulStrategy: 'Metodología Única',
+    artfulStrategyDesc: 'Nuestro proceso probado de 3 etapas que transforma desafíos en oportunidades a través de la innovación estratégica.',
+    completeSolutions: 'Equipo Multidisciplinario',
+    completeSolutionsDesc: 'Combinamos creatividad y estrategia empresarial para entregar soluciones integrales que impulsan el crecimiento real.',
+    personalPartnership: 'Compromiso Total',
+    personalPartnershipDesc: 'Tu éxito es nuestro objetivo. Estamos completamente dedicados a lograr los resultados que más importan para tu negocio.',
     
     // Contact
     contactTitle: 'Hablemos de',
