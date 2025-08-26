@@ -9,16 +9,17 @@ const About = () => {
   return (
     <section id="about" className="py-20 bg-background">
       <div className="container mx-auto px-6">
+        <div className="text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-primary">
+            {t('aboutTitle')}
+          </h2>
+          <p className="text-lg text-muted-foreground leading-relaxed mb-8 max-w-3xl mx-auto">
+            {t('aboutDescription')}
+          </p>
+        </div>
+        
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="space-y-8">
-            <div>
-              <h2 className="text-4xl md:text-5xl font-bold mb-6 text-primary">
-                {t('aboutTitle')}
-              </h2>
-              <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-                {t('aboutDescription')}
-              </p>
-            </div>
             
             <div className="space-y-6">
               <div className="flex items-start space-x-4">
