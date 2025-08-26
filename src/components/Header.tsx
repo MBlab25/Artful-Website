@@ -22,7 +22,7 @@ const Header = () => {
             <img 
               src="/lovable-uploads/93aa5acc-a35d-47db-adcf-f322d9c48f99.png"
               alt="Artful Advisors Logo" 
-              className="h-24 w-auto"
+              className="h-32 w-auto"
             />
           </div>
           
