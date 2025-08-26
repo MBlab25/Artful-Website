@@ -141,8 +141,8 @@ const translations = {
     personalPartnershipDesc: 'No eres solo otro cliente: invertimos en tu éxito como verdaderos socios, brindando atención dedicada y soluciones personalizadas para tu visión única.',
     
     // Contact
-    contactTitle: 'Iniciemos Tu',
-    contactSubtitle: 'Transformación',
+    contactTitle: 'Hablemos de Tu',
+    contactSubtitle: 'Proyecto',
     contactDescription: '¿Listo para transformar tu negocio? Ponte en contacto con nuestros consultores expertos y descubre cómo podemos ayudarte a lograr tus objetivos.',
     emailUsNow: 'Escríbenos Ahora',
     
