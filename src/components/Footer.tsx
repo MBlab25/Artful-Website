@@ -21,7 +21,7 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex flex-col">
               <h3 className="text-2xl font-bold">Artful Advisors</h3>
-              <div className="text-xs uppercase tracking-wider -mt-1 text-gray-400">Consulting</div>
+              <div className="text-xs uppercase tracking-wider -mt-1 text-primary-foreground/60">Consulting</div>
             </div>
           </div>
           
