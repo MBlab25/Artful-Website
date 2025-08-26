@@ -1,7 +1,4 @@
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
 
 const Contact = () => {
   return (
@@ -25,58 +22,31 @@ const Contact = () => {
               Journey
             </span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed mb-12">
             Ready to transform your business? Get in touch with our expert consultants 
             and discover how we can help you achieve your goals.
           </p>
-        </div>
-        
-        <div className="max-w-2xl mx-auto">
-          {/* Contact Form */}
-          <Card className="border-border/50 shadow-2xl backdrop-blur-sm bg-background/80">
-            <CardHeader className="text-center pb-8">
-              <CardTitle className="text-3xl font-bold text-primary mb-2">Get In Touch</CardTitle>
-              <CardDescription className="text-lg">
-                Fill out the form below and we'll get back to you within 24 hours.
-              </CardDescription>
-            </CardHeader>
-            <CardContent className="space-y-8 p-8">
-              <div className="grid md:grid-cols-2 gap-6">
-                <div className="space-y-3">
-                  <label className="text-sm font-semibold text-foreground uppercase tracking-wider">First Name</label>
-                  <Input placeholder="John" className="h-12 border-2 border-border/50 focus:border-accent transition-colors" />
-                </div>
-                <div className="space-y-3">
-                  <label className="text-sm font-semibold text-foreground uppercase tracking-wider">Last Name</label>
-                  <Input placeholder="Doe" className="h-12 border-2 border-border/50 focus:border-accent transition-colors" />
-                </div>
-              </div>
-              
-              <div className="space-y-3">
-                <label className="text-sm font-semibold text-foreground uppercase tracking-wider">Email</label>
-                <Input type="email" placeholder="john@company.com" className="h-12 border-2 border-border/50 focus:border-accent transition-colors" />
-              </div>
-              
-              <div className="space-y-3">
-                <label className="text-sm font-semibold text-foreground uppercase tracking-wider">Company</label>
-                <Input placeholder="Your Company Name" className="h-12 border-2 border-border/50 focus:border-accent transition-colors" />
-              </div>
-              
-              <div className="space-y-3">
-                <label className="text-sm font-semibold text-foreground uppercase tracking-wider">Message</label>
-                <Textarea 
-                  placeholder="Tell us about your project and how we can help..."
-                  className="h-40 border-2 border-border/50 focus:border-accent transition-colors resize-none"
-                />
-              </div>
-              
-              <div className="pt-4">
-                <Button variant="hero" className="w-full text-lg py-4 h-14 shadow-lg hover:shadow-xl transition-all duration-300">
-                  Start Your Transformation
-                </Button>
-              </div>
-            </CardContent>
-          </Card>
+          
+          <div className="space-y-6">
+            <Button 
+              variant="hero" 
+              size="lg"
+              className="text-xl px-12 py-6 h-16 shadow-xl hover:shadow-2xl transition-all duration-300"
+              onClick={() => window.location.href = 'mailto:hello@artfuladvisors.com'}
+            >
+              Email Us Now
+            </Button>
+            
+            <div className="text-center">
+              <p className="text-muted-foreground mb-2">Or reach out directly at:</p>
+              <a 
+                href="mailto:hello@artfuladvisors.com" 
+                className="text-xl font-semibold text-primary hover:text-accent transition-colors"
+              >
+                hello@artfuladvisors.com
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
