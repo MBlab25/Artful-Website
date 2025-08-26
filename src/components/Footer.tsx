@@ -12,7 +12,10 @@ const Footer = () => {
                 alt="Artful Advisors AA Logo" 
                 className="w-12 h-12 brightness-0 invert"
               />
-              <h3 className="text-2xl font-bold">Artful Advisors</h3>
+              <div className="flex flex-col">
+                <h3 className="text-2xl font-bold">Artful Advisors</h3>
+                <div className="text-xs uppercase tracking-wider -mt-1 text-primary-foreground/80">Consulting</div>
+              </div>
             </div>
           </div>
           
