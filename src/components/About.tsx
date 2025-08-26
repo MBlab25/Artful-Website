@@ -20,9 +20,9 @@ const About = () => {
                 Why Choose Artful Advisors?
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-                With over 15 years of combined expertise in business consulting, we've helped 
-                hundreds of companies transform their operations, strengthen their brands, and 
-                achieve sustainable growth.
+                We don't just give advice – we partner with you to create artful solutions that 
+                drive real results. Our unique blend of creative thinking and strategic expertise 
+                helps businesses not just grow, but flourish with distinction.
               </p>
             </div>
             
@@ -32,10 +32,10 @@ const About = () => {
                   <Target className="w-6 h-6 text-white" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold mb-2 text-primary">Strategic Approach</h3>
+                  <h3 className="text-xl font-semibold mb-2 text-primary">Artful Strategy</h3>
                   <p className="text-muted-foreground">
-                    We don't just offer solutions – we partner with you to understand your unique 
-                    challenges and create customized strategies that deliver measurable results.
+                    We blend creative thinking with analytical precision to craft strategies that 
+                    are both innovative and practical, ensuring your business stands out beautifully.
                   </p>
                 </div>
               </div>
@@ -45,10 +45,23 @@ const About = () => {
                   <Award className="w-6 h-6 text-white" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold mb-2 text-primary">Proven Expertise</h3>
+                  <h3 className="text-xl font-semibold mb-2 text-primary">Holistic Excellence</h3>
                   <p className="text-muted-foreground">
-                    Our team combines deep industry knowledge with cutting-edge methodologies 
-                    to ensure your business stays ahead of the competition.
+                    From marketing and branding to design and finance, we provide comprehensive 
+                    solutions that work together seamlessly to elevate every aspect of your business.
+                  </p>
+                </div>
+              </div>
+              
+              <div className="flex items-start space-x-4">
+                <div className="w-12 h-12 bg-gradient-to-br from-primary to-accent rounded-full flex items-center justify-center flex-shrink-0">
+                  <Users className="w-6 h-6 text-white" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold mb-2 text-primary">Personal Partnership</h3>
+                  <p className="text-muted-foreground">
+                    You're not just another client – we invest in your success as true partners, 
+                    providing dedicated attention and customized solutions for your unique vision.
                   </p>
                 </div>
               </div>
