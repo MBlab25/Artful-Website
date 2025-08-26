@@ -19,9 +19,9 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="grid md:grid-cols-5 gap-8">
           <div className="space-y-4">
-            <div className="flex flex-col">
-              <h3 className="text-2xl font-bold">Artful Advisors</h3>
-              <div className="text-xs uppercase tracking-wider -mt-1 text-primary-foreground/60">Consulting</div>
+            <div className="flex flex-col text-center">
+              <h3 className="text-2xl font-bold uppercase">ARTFUL ADVISORS</h3>
+              <div className="text-xs uppercase tracking-wider -mt-1 text-primary-foreground/60">CONSULTING</div>
             </div>
           </div>
           
