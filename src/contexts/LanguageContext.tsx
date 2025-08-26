@@ -65,8 +65,8 @@ const translations = {
     personalPartnershipDesc: 'You\'re not just another client – we invest in your success as true partners, providing dedicated attention and customized solutions for your unique vision.',
     
     // Contact
-    contactTitle: 'Let\'s Start Your',
-    contactSubtitle: 'Journey',
+    contactTitle: 'Let\'s Start',
+    contactSubtitle: 'Your Journey',
     contactDescription: 'Ready to transform your business? Get in touch with our expert consultants and discover how we can help you achieve your goals.',
     emailUsNow: 'Email Us Now',
     
@@ -141,8 +141,8 @@ const translations = {
     personalPartnershipDesc: 'No eres solo otro cliente: invertimos en tu éxito como verdaderos socios, brindando atención dedicada y soluciones personalizadas para tu visión única.',
     
     // Contact
-    contactTitle: 'Hablemos de tu',
-    contactSubtitle: 'proyecto',
+    contactTitle: 'Hablemos de',
+    contactSubtitle: 'tu proyecto',
     contactDescription: '¿Listo para transformar tu negocio? Ponte en contacto con nuestros consultores expertos y descubre cómo podemos ayudarte a lograr tus objetivos.',
     emailUsNow: 'Escríbenos Ahora',
     

@@ -15,9 +15,9 @@ const Contact = () => {
       <div className="container mx-auto px-6 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-6xl font-bold mb-6 text-primary">
-            Hablemos de{' '}
+            {t('contactTitle')}{' '}
             <span className="bg-gradient-to-r from-accent to-primary-glow bg-clip-text text-transparent">
-              tu {t('contactSubtitle')}
+              {t('contactSubtitle')}
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed mb-12">
