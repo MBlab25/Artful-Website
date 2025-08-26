@@ -1,7 +1,9 @@
 import { useState } from "react";
+import { useLanguage } from "@/contexts/LanguageContext";
 import LegalModal from "./LegalModals";
 
 const Footer = () => {
+  const { t } = useLanguage();
   const [activeModal, setActiveModal] = useState<'privacy' | 'terms' | 'cookies' | 'legal-notice' | null>(null);
 
   const openModal = (type: 'privacy' | 'terms' | 'cookies' | 'legal-notice') => {
@@ -24,37 +26,37 @@ const Footer = () => {
           </div>
           
           <div className="space-y-4">
-            <h4 className="text-lg font-semibold">Services</h4>
+            <h4 className="text-lg font-semibold">{t('footerServices')}</h4>
             <ul className="space-y-2 text-primary-foreground/80">
-              <li>Marketing Strategy</li>
-              <li>Branding & Identity</li>
-              <li>Design Management</li>
-              <li>Financial Planning</li>
+              <li>{t('marketingStrategy')}</li>
+              <li>{t('brandingIdentity')}</li>
+              <li>{t('designManagement')}</li>
+              <li>{t('financialPlanning')}</li>
             </ul>
           </div>
           
           <div className="space-y-4">
-            <h4 className="text-lg font-semibold">Company</h4>
+            <h4 className="text-lg font-semibold">{t('footerCompany')}</h4>
             <ul className="space-y-2 text-primary-foreground/80">
-              <li>About</li>
-              <li>Our Process</li>
+              <li>{t('about')}</li>
+              <li>{t('ourProcess')}</li>
             </ul>
           </div>
           
           <div className="space-y-4">
-            <h4 className="text-lg font-semibold">Contact</h4>
+            <h4 className="text-lg font-semibold">{t('footerContact')}</h4>
             <ul className="space-y-2 text-primary-foreground/80">
               <li>info@artfuladvisors.com</li>
             </ul>
           </div>
           
           <div className="space-y-4">
-            <h4 className="text-lg font-semibold">Legal</h4>
+            <h4 className="text-lg font-semibold">{t('footerLegal')}</h4>
             <ul className="space-y-2 text-primary-foreground/80">
-              <li><button onClick={() => openModal('privacy')} className="hover:text-accent transition-colors text-left">Privacy Policy</button></li>
-              <li><button onClick={() => openModal('terms')} className="hover:text-accent transition-colors text-left">Terms of Service</button></li>
-              <li><button onClick={() => openModal('cookies')} className="hover:text-accent transition-colors text-left">Cookie Policy</button></li>
-              <li><button onClick={() => openModal('legal-notice')} className="hover:text-accent transition-colors text-left">Legal Notice</button></li>
+              <li><button onClick={() => openModal('privacy')} className="hover:text-accent transition-colors text-left">{t('privacyPolicy')}</button></li>
+              <li><button onClick={() => openModal('terms')} className="hover:text-accent transition-colors text-left">{t('termsOfService')}</button></li>
+              <li><button onClick={() => openModal('cookies')} className="hover:text-accent transition-colors text-left">{t('cookiePolicy')}</button></li>
+              <li><button onClick={() => openModal('legal-notice')} className="hover:text-accent transition-colors text-left">{t('legalNotice')}</button></li>
             </ul>
           </div>
         </div>
@@ -62,12 +64,12 @@ const Footer = () => {
         <div className="border-t border-primary-foreground/20 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-primary-foreground/60 text-center md:text-left">
-              &copy; 2024 Artful Advisors. All rights reserved.
+              &copy; 2024 Artful Advisors. {t('allRightsReserved')}
             </p>
             <div className="flex flex-wrap justify-center md:justify-end gap-6 text-sm text-primary-foreground/60">
-              <button onClick={() => openModal('cookies')} className="hover:text-accent transition-colors">Cookie Settings</button>
-              <button onClick={() => openModal('privacy')} className="hover:text-accent transition-colors">GDPR Compliance</button>
-              <button onClick={() => openModal('privacy')} className="hover:text-accent transition-colors">Data Protection</button>
+              <button onClick={() => openModal('cookies')} className="hover:text-accent transition-colors">{t('cookieSettings')}</button>
+              <button onClick={() => openModal('privacy')} className="hover:text-accent transition-colors">{t('gdprCompliance')}</button>
+              <button onClick={() => openModal('privacy')} className="hover:text-accent transition-colors">{t('dataProtection')}</button>
             </div>
           </div>
         </div>

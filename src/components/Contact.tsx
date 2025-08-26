@@ -1,6 +1,9 @@
 import { Button } from "@/components/ui/button";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const Contact = () => {
+  const { t } = useLanguage();
+
   return (
     <section id="contact" className="py-20 bg-gradient-to-br from-primary/5 via-background to-accent/5 relative overflow-hidden">
       {/* Background decorative elements */}
@@ -12,14 +15,13 @@ const Contact = () => {
       <div className="container mx-auto px-6 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-6xl font-bold mb-6 text-primary">
-            Let's Start Your
+            {t('contactTitle')}
             <span className="block bg-gradient-to-r from-accent to-primary-glow bg-clip-text text-transparent">
-              Journey
+              {t('contactSubtitle')}
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed mb-12">
-            Ready to transform your business? Get in touch with our expert consultants 
-            and discover how we can help you achieve your goals.
+            {t('contactDescription')}
           </p>
           
           <div className="space-y-6">
@@ -29,7 +31,7 @@ const Contact = () => {
               className="text-xl px-12 py-6 h-16 shadow-xl hover:shadow-2xl transition-all duration-300"
               onClick={() => window.location.href = 'mailto:info@artfuladvisors.com'}
             >
-              Email Us Now
+              {t('emailUsNow')}
             </Button>
           </div>
         </div>

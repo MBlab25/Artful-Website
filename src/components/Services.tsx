@@ -1,44 +1,46 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { TrendingUp, Palette, Settings, DollarSign } from "lucide-react";
-
-const services = [
-  {
-    icon: TrendingUp,
-    title: "Marketing Strategy",
-    description: "Comprehensive marketing strategies that drive growth, increase brand awareness, and generate qualified leads for your business.",
-    features: ["Digital Marketing", "Content Strategy", "SEO Optimization", "Social Media Management"]
-  },
-  {
-    icon: Palette,
-    title: "Branding & Identity",
-    description: "Create a powerful brand identity that resonates with your target audience and sets you apart from the competition.",
-    features: ["Brand Strategy", "Visual Identity", "Logo Design", "Brand Guidelines"]
-  },
-  {
-    icon: Settings,
-    title: "Design Management",
-    description: "Streamline your design processes and create cohesive visual experiences across all customer touchpoints.",
-    features: ["Design Systems", "UX/UI Strategy", "Creative Operations", "Brand Consistency"]
-  },
-  {
-    icon: DollarSign,
-    title: "Financial Planning",
-    description: "Strategic financial guidance to optimize your business operations, manage cash flow, and plan for sustainable growth.",
-    features: ["Financial Analysis", "Budget Planning", "Investment Strategy", "Risk Management"]
-  }
-];
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const Services = () => {
+  const { t } = useLanguage();
+
+  const services = [
+    {
+      icon: TrendingUp,
+      title: t('marketingStrategy'),
+      description: t('marketingDescription'),
+      features: [t('digitalMarketing'), t('contentStrategy'), t('seoOptimization'), t('socialMediaManagement')]
+    },
+    {
+      icon: Palette,
+      title: t('brandingIdentity'),
+      description: t('brandingDescription'),
+      features: [t('brandStrategy'), t('visualIdentity'), t('logoDesign'), t('brandGuidelines')]
+    },
+    {
+      icon: Settings,
+      title: t('designManagement'),
+      description: t('designDescription'),
+      features: [t('designSystems'), t('uxuiStrategy'), t('creativeOperations'), t('brandConsistency')]
+    },
+    {
+      icon: DollarSign,
+      title: t('financialPlanning'),
+      description: t('financialDescription'),
+      features: [t('financialAnalysis'), t('budgetPlanning'), t('investmentStrategy'), t('riskManagement')]
+    }
+  ];
+
   return (
     <section id="services" className="py-20 bg-gradient-to-b from-background to-secondary/30">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-primary">
-            Our Expertise
+            {t('servicesTitle')}
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            We provide comprehensive consulting services across four key areas 
-            to help your business thrive in today's competitive landscape.
+            {t('servicesSubtitle')}
           </p>
         </div>
         
