@@ -2,16 +2,6 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Mail } from "lucide-react";
-
-const contactInfo = [
-  {
-    icon: Mail,
-    title: "Email Us",
-    details: "hello@artfuladvisors.com",
-    description: "Send us an email anytime"
-  }
-];
 
 const Contact = () => {
   return (
@@ -27,11 +17,11 @@ const Contact = () => {
           </p>
         </div>
         
-        <div className="grid lg:grid-cols-2 gap-16">
+        <div className="max-w-2xl mx-auto">
           {/* Contact Form */}
           <Card className="border-border/50 shadow-lg">
             <CardHeader>
-              <CardTitle className="text-2xl text-primary">Send Us a Message</CardTitle>
+              <CardTitle className="text-2xl text-primary">Get In Touch</CardTitle>
               <CardDescription>
                 Fill out the form below and we'll get back to you within 24 hours.
               </CardDescription>
@@ -71,26 +61,6 @@ const Contact = () => {
               </Button>
             </CardContent>
           </Card>
-          
-          {/* Contact Information */}
-          <div className="space-y-8">
-            {contactInfo.map((info, index) => (
-              <Card key={index} className="border-border/50 hover:shadow-lg transition-all duration-300">
-                <CardContent className="flex items-start space-x-4 p-6">
-                  <div className="w-12 h-12 bg-gradient-to-br from-primary to-accent rounded-full flex items-center justify-center flex-shrink-0">
-                    <info.icon className="w-6 h-6 text-white" />
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-semibold mb-2 text-primary">{info.title}</h3>
-                    <p className="text-foreground font-medium whitespace-pre-line mb-1">
-                      {info.details}
-                    </p>
-                    <p className="text-sm text-muted-foreground">{info.description}</p>
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
         </div>
       </div>
     </section>
