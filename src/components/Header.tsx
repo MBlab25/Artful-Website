@@ -6,16 +6,12 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-md border-b">
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="flex items-center space-x-4">
+          <div className="flex items-center">
             <img 
               src="/lovable-uploads/7246f0a2-2cc5-4afe-ac34-88887961ffd6.png"
               alt="Artful Advisors Logo" 
-              className="w-24 h-24"
+              className="h-12 w-auto"
             />
-            <div className="flex flex-col">
-              <div className="text-2xl font-bold text-primary tracking-tight">Artful Advisors</div>
-              <div className="text-sm text-muted-foreground font-medium uppercase tracking-wider -mt-1">Consulting</div>
-            </div>
           </div>
           
           <nav className="hidden md:flex items-center space-x-8">
