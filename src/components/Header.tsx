@@ -28,7 +28,7 @@ const Header = () => {
               <h1 className="text-lg md:text-xl font-bold text-primary tracking-wider">
                 ARTFUL ADVISORS
               </h1>
-              <p className="text-xs text-center text-muted-foreground font-medium tracking-widest">
+              <p className="text-xs text-center text-primary font-medium tracking-widest">
                 CONSULTING
               </p>
             </div>
