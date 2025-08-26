@@ -14,7 +14,7 @@ const About = () => {
             {t('aboutTitle').split('Artful Advisors').map((part, index) => (
               index === 1 ? (
                 <span key={index}>
-                  <span className="text-accent">Artful Advisors</span>
+                  <span className="bg-gradient-to-r from-accent to-primary-glow bg-clip-text text-transparent">Artful Advisors</span>
                   {part}
                 </span>
               ) : part
