@@ -5,12 +5,12 @@ import { Textarea } from "@/components/ui/textarea";
 import { Mail, Phone, MapPin, Clock } from "lucide-react";
 
 const contactInfo = [
-  {
-    icon: Mail,
-    title: "Email Us",
-    details: "hello@consultpro.com",
-    description: "Send us an email anytime"
-  },
+    {
+      icon: Mail,
+      title: "Email Us",
+      details: "hello@artfuladvisors.com",
+      description: "Send us an email anytime"
+    },
   {
     icon: Phone,
     title: "Call Us",

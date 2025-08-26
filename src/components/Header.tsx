@@ -1,12 +1,20 @@
 import { Button } from "@/components/ui/button";
+import logoIcon from "@/assets/artful-advisors-icon.png";
 
 const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-md border-b">
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="text-2xl font-bold text-primary">
-            ConsultPro
+          <div className="flex items-center space-x-3">
+            <img 
+              src={logoIcon} 
+              alt="Artful Advisors Logo" 
+              className="w-8 h-8"
+            />
+            <div className="text-2xl font-bold text-primary">
+              Artful Advisors
+            </div>
           </div>
           
           <nav className="hidden md:flex items-center space-x-8">

@@ -17,7 +17,7 @@ const About = () => {
           <div className="space-y-8">
             <div>
               <h2 className="text-4xl md:text-5xl font-bold mb-6 text-primary">
-                Why Choose ConsultPro?
+                Why Choose Artful Advisors?
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed mb-8">
                 With over 15 years of combined expertise in business consulting, we've helped 
