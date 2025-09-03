@@ -32,7 +32,12 @@ const Hero = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button variant="hero" size="lg" className="text-lg px-8 py-3">
+            <Button 
+              variant="hero" 
+              size="lg" 
+              className="text-lg px-8 py-3"
+              onClick={() => window.location.href = 'mailto:info@artfuladvisors.com'}
+            >
               {t('startConsultation')}
             </Button>
           </div>
