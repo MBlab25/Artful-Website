@@ -40,7 +40,14 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="text-lg font-semibold">{t('footerContact')}</h4>
             <ul className="space-y-2 text-primary-foreground/80">
-              <li>info@artfuladvisors.com</li>
+              <li>
+                <a 
+                  href="mailto:info@artfuladvisors.com" 
+                  className="hover:text-accent transition-colors"
+                >
+                  info@artfuladvisors.com
+                </a>
+              </li>
             </ul>
           </div>
           
